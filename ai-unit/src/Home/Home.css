@@ -1,0 +1,129 @@
+label {
+  font-size: 21px;
+  padding-right: 5px;
+}
+.center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+}
+.input-field,
+.input-field:focus {
+  outline: 0px !important;
+  -webkit-appearance: none;
+  border-style: none;
+  height: 30px;
+  min-width: 208px;
+  border-radius: 5px;
+  padding: 0 30px 0 5px;
+  background-color: #555f70;
+  color: #fff;
+}
+.input-field::placeholder {
+  color: #ccd3dd;
+}
+.results-view {
+  height: 100px;
+  padding: 20px;
+  line-height: 25px;
+  font-size: 19px;
+}
+.arrow {
+  cursor: pointer;
+  width: 30px;
+  position: relative;
+  right: 35%;
+  clear: both;
+  position: absolute;
+  left: 32px;
+  top: 79px;
+  display: block;
+}
+.space {
+  margin-bottom: 85px;
+}
+.wolfram-image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 5px;
+}
+.image-result {
+  display: block;
+  text-align: center;
+  line-height: 25px;
+  font-size: 19px;
+  margin: auto;
+}
+@media only screen and (max-width: 540px) {
+  .wolfram-image {
+    width: 99%;
+  }
+}
+@media only screen and (min-width: 541px) {
+  .image-result, .wolfram-image {
+    width: 540px;
+  } 
+}
+.simp-result {
+  text-align: center;
+  font-size: 17.6px;
+}
+.mic-icon {
+  cursor: pointer;
+  position: absolute;
+  right: 7px;
+  top: 4.5008px;
+  height: 20px;
+  width: 16px;
+  border-radius: 50%;
+}
+@media only screen and (max-width: 352px){
+  .input-field, .input-field:focus{
+    min-width: 3vw;
+  }
+  label{
+    font-size: 1em;
+  }
+}
+.active-mic {
+  box-shadow: 0 0 0 0 rgba(90, 153, 212, 0.5);
+  -webkit-animation: pulse 934ms infinite;
+}
+@-webkit-keyframes pulse {
+  0% {
+    -moz-transform: scale(0.9);
+    -ms-transform: scale(0.9);
+    -webkit-transform: scale(0.9);
+    transform: scale(0.9);
+  }
+  70% {
+    -moz-transform: scale(1);
+    -ms-transform: scale(1);
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    box-shadow: 0 0 0 50px rgba(90, 153, 212, 0);
+  }
+  100% {
+    -moz-transform: scale(0.9);
+    -ms-transform: scale(0.9);
+    -webkit-transform: scale(0.9);
+    transform: scale(0.9);
+    box-shadow: 0 0 0 0 rgba(90, 153, 212, 0);
+  }
+}
+.swal-modal{
+  background-color: #555f70 ;
+}
+.swal-title{
+  color: white;
+}
+.swal-text{
+  color: #ffffff;
+}
+.swal-button{
+  background-color: #9ea6b1;
+  color: #ffffff;
+}

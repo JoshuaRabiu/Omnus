@@ -1,0 +1,41 @@
+a {
+  text-decoration: underline;
+  color: white;
+}
+
+ul {
+  margin: 0 1.5em 1.5em 1.5em;
+}
+
+h1 {
+  font-size: 22px;
+}
+.center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+}
+
+@media only screen and (max-width: 540px) {
+  .about-text {
+    height: 70%;
+    display: block;
+    width: 85%;
+    margin:0 auto;
+    font-size: 19px;
+    line-height: 25px;
+    padding-top: 25px;
+  }
+}
+@media only screen and (min-width: 541px) {
+  .about-text {
+    height: 70%;
+    width: 540px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 19px;
+    line-height: 25px;
+  }
+}

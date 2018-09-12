@@ -1,0 +1,37 @@
+{
+  "name": "ai-unit",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "axios": "^0.17.1",
+    "body-parser": "^1.18.2",
+    "concat-map": "0.0.1",
+    "eslint-config-airbnb": "^16.1.0",
+    "function-bind": "^1.1.1",
+    "global": "^4.3.2",
+    "node-proxy-http": "^1.0.2",
+    "react": "^16.0.0",
+    "react-dom": "^16.0.0",
+    "react-input-hints": "^2.0.0",
+    "react-router-dom": "^4.2.2",
+    "react-scripts": "^1.1.1",
+    "sweetalert": "^2.1.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "lint": "eslint ."
+  },
+  "proxy": "http://127.0.0.1:3001",
+  "description": "This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).",
+  "main": "index.js",
+  "devDependencies": {
+    "eslint-plugin-import": "^2.12.0",
+    "eslint-plugin-jsx-a11y": "^6.0.3",
+    "eslint-plugin-react": "^7.8.2"
+  },
+  "author": "JoshuaScript",
+  "license": "MIT"
+}

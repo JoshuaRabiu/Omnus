@@ -1,0 +1,37 @@
+{
+  "name": "Omnus",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www"
+  },
+  "dependencies": {
+    "axios": "^0.17.1",
+    "body-parser": "~1.18.2",
+    "chai": "^4.1.2",
+    "chromedriver": "^2.40.0",
+    "cors": "^2.8.4",
+    "debug": "^3.1.0",
+    "delegates": "^1.0.0",
+    "express": "~4.15.5",
+    "express-react-views": "^0.10.5",
+    "heroku": "^7.0.45",
+    "http": "^0.0.0",
+    "libxmljs": "^0.19.0",
+    "mocha": "^5.2.0",
+    "morgan": "^1.9.0",
+    "react": "^16.3.2",
+    "react-dom": "^16.3.2",
+    "react-refetch": "^1.0.4",
+    "react-test-renderer": "^16.4.0",
+    "selenium-webdriver": "^4.0.0-alpha.1",
+    "socket.io": "^2.0.4",
+    "supertest": "^3.1.0",
+    "webpack": "^4.10.1",
+    "wolfram-alpha-api": "https://products.wolframalpha.com/api/libraries/javascript/wolfram-alpha-api-1.0.0-rc.1.tgz",
+    "xmljs": "^0.3.2"
+  },
+  "devDependencies": {
+    "regenerator-runtime": "^0.11.1"
+  }
+}

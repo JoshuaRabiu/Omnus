@@ -1,0 +1,18 @@
+.heading{
+    text-decoration:none;
+    color: white;
+    font-size: 28px;
+    display: inline-block;
+    padding-top: 35px;
+}
+.heading:hover{
+    text-decoration: underline;
+}
+.omnus{
+    padding-left: 28px;
+}
+.about{
+    float: right;
+    clear: both;
+    padding-right: 28px;
+}
