@@ -121,7 +121,7 @@ class Home extends Component {
 
     if (this.state.results.length > 0) {
       //View returned for image-based Wolfram responses
-      if (dataFetched.indexOf('data:image/gif') == 0) {
+      if (dataFetched.indexOf('data:image/gif') === 0) {
         this.speak(this.state.message + this.state.query);
         return <div>
                  <Link to="/" target="_self"><img src={arrow} className="arrow" /></Link>
