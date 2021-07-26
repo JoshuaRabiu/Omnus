@@ -6,7 +6,7 @@ const About = () => {
     <div className="center about-text">
       <p>
         Omnus is a project inspired by Apple's
-          Siri Personal Assistant. All computations/calculations are handled by Wolfram Alpha, which is the same computational knowledge engine used by Siri for extrinsic information. The code is hosted <a href="https://github.com/JoshuaScript/Omnus">here on GitHub.</a>
+          Siri Personal Assistant. All computations/calculations are handled by Wolfram Alpha, which is the same computational knowledge engine used by Siri for extrinsic information. The code is hosted <a href="https://github.com/joshrabiu/Omnus">here on GitHub.</a>
       </p>
       <br />
       <h1>Omnus uses:</h1>

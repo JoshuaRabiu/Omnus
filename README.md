@@ -3,15 +3,15 @@ A web app inspired by Apple's Siri Personal assistant, powered by the [Wolfram A
 ![Omnus website](https://imgur.com/L5B8vGD.png)
 
 ## Table of Contents
-- [Built With](https://github.com/JoshuaScript/Omnus#built-with)
-- [Features](https://github.com/JoshuaScript/Omnus#features)
-- [Running the application](https://github.com/JoshuaScript/Omnus#running-the-application)
- - - [Setup](https://github.com/JoshuaScript/Omnus#Setup)
- - - [Running With Docker](https://github.com/JoshuaScript/Omnus#with-docker)
- - - [Running Without Docker](https://github.com/JoshuaScript/Omnus#without-docker)
-- [Running Tests](https://github.com/JoshuaScript/Omnus#running-tests)
-- [License](https://github.com/JoshuaScript/Omnus#license)
-- [Additional Attributions](https://github.com/JoshuaScript/Omnus#additional-attributions)
+- [Built With](https://github.com/joshrabiu/Omnus#built-with)
+- [Features](https://github.com/joshrabiu/Omnus#features)
+- [Running the application](https://github.com/joshrabiu/Omnus#running-the-application)
+ - - [Setup](https://github.com/joshrabiu/Omnus#Setup)
+ - - [Running With Docker](https://github.com/joshrabiu/Omnus#with-docker)
+ - - [Running Without Docker](https://github.com/joshrabiu/Omnus#without-docker)
+- [Running Tests](https://github.com/joshrabiu/Omnus#running-tests)
+- [License](https://github.com/joshrabiu/Omnus#license)
+- [Additional Attributions](https://github.com/joshrabiu/Omnus#additional-attributions)
 
 ## Built with
 - [React JS](https://github.com/facebook/react)
@@ -34,7 +34,7 @@ To run the application locally, you'll first need a Wolfram Alpha Api key. Get y
 
 Once you have an api key, clone this repo:  
 ```sh
-git clone https://github.com/JoshuaScript/Omnus.git
+git clone https://github.com/joshrabiu/Omnus.git
 ```  
 
 cd into the project directory
@@ -55,13 +55,13 @@ Then refer to the following sections:
 
 Build the Docker image using the local dockerfile
 ```sh
-docker build -t joshuascript/omnus .
+docker build -t joshrabiu/omnus .
 ```
 
 Then, run the following commands, replacing PORT_NUMBER with the port you want the application to run on locally:
 
 ```sh
-docker run -p $PORT_NUMBER:8000 joshuascript/omnus
+docker run -p $PORT_NUMBER:8000 joshrabiu/omnus
 ```
 
 For regular Docker users, the app will be running on
@@ -97,7 +97,7 @@ yarn start
 Then, open a new terminal tab/window in the same directory and `cd` to the react subfolder like so:
 
 ```sh
-cd ai-unit
+cd client
 ```
 
 Install the dependencies:
@@ -127,7 +127,7 @@ Which should output the following, given that everything works:
 
 ## License
 
-Omnus is licensed under the [MIT](https://github.com/JoshuaScript/Omnus/blob/master/LICENSE) license.
+Omnus is licensed under the [MIT](https://github.com/joshrabiu/Omnus/blob/master/LICENSE) license.
 
 ## Additional Attributions
 

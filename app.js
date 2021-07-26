@@ -9,7 +9,7 @@ const wolframApi = require('./routes/wolfram-api');
 
 const app = express();
 
-app.use(express.static(path.resolve('/app', 'ai-unit/build')));
+app.use(express.static(path.resolve('/app', 'client/build')));
 app.use(logger('dev'));
 app.use(cors());
 app.use(bodyParser.urlencoded({ extended: false }));

@@ -33,7 +33,7 @@ npm manifest:
     "private": true,
     "scripts": {
       "start": "sudo PORT=777 node ./bin/www",
-      "heroku-postbuild": "cd ai-unit && yarn --production=false && yarn run build",
+      "heroku-postbuild": "cd client && yarn --production=false && yarn run build",
       "babel": {
         "presets": [
           "es2015",

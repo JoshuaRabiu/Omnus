@@ -1,5 +1,5 @@
 {
-  "name": "ai-unit",
+  "name": "client",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -32,6 +32,6 @@
     "eslint-plugin-jsx-a11y": "^6.0.3",
     "eslint-plugin-react": "^7.8.2"
   },
-  "author": "JoshuaScript",
+  "author": "joshrabiu",
   "license": "MIT"
 }

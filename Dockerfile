@@ -1,7 +1,7 @@
 FROM node:10.1.0
 WORKDIR /app
 COPY . .
-WORKDIR ./ai-unit
+WORKDIR ./client
 RUN yarn add react-scripts && yarn --production=false && yarn run build
 WORKDIR ../app
 RUN yarn

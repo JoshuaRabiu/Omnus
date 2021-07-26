@@ -4,7 +4,7 @@ const io = require('socket.io')();
 const path = require('path');
 
  router.get('*', function(req, res, next) {
-  res.sendFile(path.resolve('/app','ai-unit/build/index.html'));
+  res.sendFile(path.resolve('/app','client/build/index.html'));
 });
 
 io.on('connection', (client) =>{
