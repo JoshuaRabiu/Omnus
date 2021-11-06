@@ -6,7 +6,7 @@
     "start": "node ./bin/www"
   },
   "dependencies": {
-    "axios": "^0.17.1",
+    "axios": "^0.21.1",
     "body-parser": "~1.18.2",
     "chai": "^4.1.2",
     "chromedriver": "^2.40.0",
