@@ -3,15 +3,15 @@ A web app inspired by Apple's Siri Personal assistant, powered by the [Wolfram A
 ![Omnus website](https://imgur.com/L5B8vGD.png)
 
 ## Table of Contents
-- [Built With](https://github.com/joshrabiu/Omnus#built-with)
-- [Features](https://github.com/joshrabiu/Omnus#features)
-- [Running the application](https://github.com/joshrabiu/Omnus#running-the-application)
- - - [Setup](https://github.com/joshrabiu/Omnus#Setup)
- - - [Running With Docker](https://github.com/joshrabiu/Omnus#with-docker)
- - - [Running Without Docker](https://github.com/joshrabiu/Omnus#without-docker)
-- [Running Tests](https://github.com/joshrabiu/Omnus#running-tests)
-- [License](https://github.com/joshrabiu/Omnus#license)
-- [Additional Attributions](https://github.com/joshrabiu/Omnus#additional-attributions)
+- [Built With](https://github.com/JoshuaRabiu/Omnus#built-with)
+- [Features](https://github.com/JoshuaRabiu/Omnus#features)
+- [Running the application](https://github.com/JoshuaRabiu/Omnus#running-the-application)
+ - - [Setup](https://github.com/JoshuaRabiu/Omnus#Setup)
+ - - [Running With Docker](https://github.com/JoshuaRabiu/Omnus#with-docker)
+ - - [Running Without Docker](https://github.com/JoshuaRabiu/Omnus#without-docker)
+- [Running Tests](https://github.com/JoshuaRabiu/Omnus#running-tests)
+- [License](https://github.com/JoshuaRabiu/Omnus#license)
+- [Additional Attributions](https://github.com/JoshuaRabiu/Omnus#additional-attributions)
 
 ## Built with
 - [React JS](https://github.com/facebook/react)
@@ -34,7 +34,7 @@ To run the application locally, you'll first need a Wolfram Alpha Api key. Get y
 
 Once you have an api key, clone this repo:  
 ```sh
-git clone https://github.com/joshrabiu/Omnus.git
+git clone https://github.com/JoshuaRabiu/Omnus.git
 ```  
 
 cd into the project directory
@@ -55,13 +55,13 @@ Then refer to the following sections:
 
 Build the Docker image using the local dockerfile
 ```sh
-docker build -t joshrabiu/omnus .
+docker build -t JoshuaRabiu/omnus .
 ```
 
 Then, run the following commands, replacing PORT_NUMBER with the port you want the application to run on locally:
 
 ```sh
-docker run -p $PORT_NUMBER:8000 joshrabiu/omnus
+docker run -p $PORT_NUMBER:8000 JoshuaRabiu/omnus
 ```
 
 For regular Docker users, the app will be running on
@@ -127,7 +127,7 @@ Which should output the following, given that everything works:
 
 ## License
 
-Omnus is licensed under the [MIT](https://github.com/joshrabiu/Omnus/blob/master/LICENSE) license.
+Omnus is licensed under the [MIT](https://github.com/JoshuaRabiu/Omnus/blob/master/LICENSE) license.
 
 ## Additional Attributions
 

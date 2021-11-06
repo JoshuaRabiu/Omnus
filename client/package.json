@@ -32,6 +32,6 @@
     "eslint-plugin-jsx-a11y": "^6.0.3",
     "eslint-plugin-react": "^7.8.2"
   },
-  "author": "joshrabiu",
+  "author": "JoshuaRabiu",
   "license": "MIT"
 }
