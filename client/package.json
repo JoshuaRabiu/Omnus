@@ -4,7 +4,7 @@
   "private": true,
   "dependencies": {
     "axios": "^0.17.1",
-    "body-parser": "^1.18.2",
+    "body-parser": "^1.20.1",
     "concat-map": "0.0.1",
     "eslint-config-airbnb": "^16.1.0",
     "function-bind": "^1.1.1",
