@@ -13,7 +13,7 @@
     "cors": "^2.8.4",
     "debug": "^3.1.0",
     "delegates": "^1.0.0",
-    "express": "~4.15.5",
+    "express": "~4.17.3",
     "express-react-views": "^0.10.5",
     "heroku": "^7.0.45",
     "http": "^0.0.0",
